@@ -65,3 +65,34 @@ border-radius: 5px;
 .navbar a:hover {
 background-color: #ff3366;
 }
+
+.hero {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+.left-text {
+font-size: 28px;
+color: black;
+font-weight: bold;
+}
+
+.right-text {
+font-size: 24px;
+color: black;
+font-weight: bold;
+}
+
+.left-text p {
+margin: 5px;
+}
+
+.right-text p {
+margin: 5px;
+}
+
+.hero img {
+width: 300px;
+}
