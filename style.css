@@ -71,29 +71,44 @@ padding: 20px;
 }
 
 .left-text {
-font-size: 32px;
+width: 280px;
 color: white;
 font-weight: bold;
 text-align: center;
-width: 350px;
 }
 
 .right-text {
-font-size: 20px;
+width: 280px;
 color: white;
 font-weight: bold;
 text-align: center;
-width: 350px;
 }
 
-.left-text p {
-margin: 5px;
+.left-text p:first-child {
+font-size: 32px;
+margin: 0;
 }
 
-.right-text p {
-margin: 5px;
+.left-text p:last-child {
+font-size: 52px;
+margin: 0;
+}
+
+.right-text p:first-child {
+font-size: 24px;
+margin: 0;
+}
+
+.right-text p:last-child {
+font-size: 40px;
+margin: 0;
 }
 
 .hero img {
-width: 350px;
+width: 420px;
+}
+
+.left-text p,
+.right-text p {
+padding: 5px;
 }
