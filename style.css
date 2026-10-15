@@ -161,3 +161,37 @@ line-height: 1.6;
 .coach-details b {
 color: #d6003d;
 }
+
+.sponsors {
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+gap: 60px;
+
+margin-top: 40px;
+
+margin-bottom: 60px;
+
+flex-wrap: wrap;
+
+}
+
+.sponsors img {
+
+height: 120px;
+
+width: auto;
+
+background-color: white;
+
+padding: 15px;
+
+border-radius: 10px;
+
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
