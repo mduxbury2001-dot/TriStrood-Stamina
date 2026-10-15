@@ -233,4 +233,12 @@ width: 100%;
 height: 100%;
 object-fit: cover;
 }
-``
+
+.molly-photo img {
+object-position: center top;
+}
+
+.claudio-photo img {
+object-position: center top;
+}
+
