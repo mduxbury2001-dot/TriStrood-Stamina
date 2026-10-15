@@ -132,8 +132,8 @@ flex-direction: row-reverse;
 }
 
 .coach-photo {
-width: 250px;
-height: 250px;
+width: 260px;
+height: 320px;
 overflow: hidden;
 border: 4px solid #d6003d;
 border-radius: 10px;
@@ -143,10 +143,10 @@ flex-shrink: 0;
 }
 
 .coach-photo img {
-width: 250px;
-height: 250px;
+width: 100%;
+height: 100%;
 object-fit: cover;
-display: block;
+object-position: center top;
 }
 
 .coach-details {
