@@ -149,6 +149,14 @@ object-fit: cover;
 object-position: center top;
 }
 
+.molly-photo img {
+object-position: center 10%;
+}
+
+.claudio-photo img {
+object-position: center 15%;
+}
+
 .coach-details {
 width: 650px;
 text-align: left;
@@ -216,29 +224,5 @@ text-decoration: none;
 
 .sponsor-box a:hover {
 text-decoration: underline;
-}
-
-.coach-photo {
-width: 250px;
-height: 250px;
-overflow: hidden;
-border: 4px solid #d6003d;
-border-radius: 10px;
-background-color: white;
-box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.coach-photo img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-}
-
-.molly-photo img {
-object-position: center top;
-}
-
-.claudio-photo img {
-object-position: center top;
 }
 
