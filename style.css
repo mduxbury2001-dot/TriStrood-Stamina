@@ -132,21 +132,22 @@ flex-direction: row-reverse;
 }
 
 .coach-photo {
-width: 220px;
-height: 220px;
-background-color: white;
+width: 250px;
+height: 250px;
+overflow: hidden;
 border: 4px solid #d6003d;
 border-radius: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
-font-weight: bold;
-color: #d6003d;
+background-color: white;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+flex-shrink: 0;
 }
 
-.coach-details {
-width: 600px;
-text-align: left;
+.coach-photo img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+};
 }
 
 .coach-details h2 {
