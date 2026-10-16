@@ -292,6 +292,13 @@ text-decoration: underline;
     background-color: #b50033;
 }
 
+.join-intro {
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+    line-height: 1.8;
+}
+
 .join-hero {
     background: linear-gradient(135deg, #d6003d, #a00030);
     color: white;
