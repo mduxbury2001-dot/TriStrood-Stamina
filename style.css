@@ -291,3 +291,76 @@ text-decoration: underline;
 .contact-btn:hover {
     background-color: #b50033;
 }
+
+.join-hero {
+    background: linear-gradient(135deg, #d6003d, #a00030);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.join-hero h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+.join-hero p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background: white;
+    color: #d6003d;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.membership-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 60px auto;
+}
+
+.membership-card {
+    background: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.membership-card:hover {
+    transform: translateY(-10px);
+}
+
+.benefits-section {
+    max-width: 1000px;
+    margin: 60px auto;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.benefits-grid div {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.join-cta {
+    background: #d6003d;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
