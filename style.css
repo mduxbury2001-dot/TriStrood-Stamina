@@ -307,7 +307,7 @@ text-decoration: underline;
 }
 
 .join-hero h1 {
-    color: white;
+    color: white!important;
     font-size: 56px;
     margin-bottom: 10px;
 }
