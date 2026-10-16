@@ -175,6 +175,38 @@ line-height: 1.6;
 color: #d6003d;
 }
 
+.values-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.value-box {
+    background: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-top: 5px solid #d6003d;
+    transition: 0.3s;
+}
+
+.value-box:hover {
+    transform: translateY(-8px);
+}
+
+.value-box h3 {
+    color: #d6003d;
+    margin-bottom: 15px;
+}
+
+.value-box p {
+    line-height: 1.6;
+}
+
 .sponsors {
 
 display: flex;
