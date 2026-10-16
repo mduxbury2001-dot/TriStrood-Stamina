@@ -180,25 +180,31 @@ color: #d6003d;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    margin: 50px auto;
     max-width: 1200px;
+    margin: 40px auto 60px auto;
 }
 
-.value-box {
+.value-card {
     background: white;
-    width: 300px;
+    width: 280px;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     border-top: 5px solid #d6003d;
+    text-align: center;
     transition: 0.3s;
 }
 
-.value-box:hover {
+.value-card:hover {
     transform: translateY(-8px);
 }
 
-.value-box h3 {
+.value-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.value-card h3 {
     color: #d6003d;
     margin-bottom: 15px;
 }
