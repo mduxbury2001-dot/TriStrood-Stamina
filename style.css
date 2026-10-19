@@ -484,12 +484,17 @@ text-decoration: underline;
 
 .contact-track {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 20px;
     width: max-content;
-    animation: contactScroll 25s linear infinite;
+    white-space: nowrap;
+    animation: contactScroll 20s linear infinite;
 }
 
 .contact-item {
+    display: inline-block;
+    flex-shrink: 0;
     background: white;
     padding: 15px 25px;
     border-radius: 30px;
@@ -497,7 +502,6 @@ text-decoration: underline;
     border: 2px solid #d6003d;
     font-weight: bold;
     color: #d6003d;
-    white-space: nowrap;
 }
 
 @keyframes contactScroll {
