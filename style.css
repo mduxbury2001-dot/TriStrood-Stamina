@@ -474,3 +474,38 @@ text-decoration: underline;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
+
+
+.contact-carousel {
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0 50px 0;
+}
+
+.contact-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: contactScroll 25s linear infinite;
+}
+
+.contact-item {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border: 2px solid #d6003d;
+    font-weight: bold;
+    color: #d6003d;
+    white-space: nowrap;
+}
+
+@keyframes contactScroll {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
