@@ -476,40 +476,28 @@ text-decoration: underline;
 }
 
 
-.contact-carousel {
-    width: 100%;
-    overflow: hidden;
-    margin: 30px 0 50px 0;
-}
-
-.contact-track {
-    display: flex!important;
-    flex-direction: row;
-    align-items: center;
+.enquiry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: max-content;
-    white-space: nowrap;
-    animation: contactScroll 20s linear infinite;
+    max-width: 900px;
+    margin: 30px auto;
 }
 
-.contact-item {
-    display: inline-block;
-    flex-shrink: 0;
+.enquiry-card {
     background: white;
-    padding: 15px 25px;
-    border-radius: 30px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     border: 2px solid #d6003d;
-    font-weight: bold;
     color: #d6003d;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
 }
 
-@keyframes contactScroll {
-    0% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
+.enquiry-card:hover {
+    background: #d6003d;
+    color: white;
+    transform: translateY(-5px);
 }
